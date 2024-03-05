@@ -1,49 +1,73 @@
 {
-	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-app"
-		}
-	},
-	{
-		"path" : "pages/home/home",
-		"style" : 
-		{
-			"navigationBarTitleText" : "",
-			"enablePullDownRefresh" : false
-		}
-	},
-	{
-		"path" : "pages/center/center",
-		"style" : 
-		{
-			"navigationBarTitleText" : "",
-			"enablePullDownRefresh" : false
-		}
-	},
-	{
-		"path" : "pages/hot/hot",
-		"style" : 
-		{
-			"navigationBarTitleText" : "",
-			"enablePullDownRefresh" : false
-		}
-	},
-	{
-		"path" : "pages/message/message",
-		"style" : 
-		{
-			"navigationBarTitleText" : "",
-			"enablePullDownRefresh" : false
-		}
-	}],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8",
-		"app-plus": {
-			"background": "#efeff4"
-		}
-	}
+  "pages": [
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/center/center",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/hot/hot",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/message/message",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#02D199",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/home",
+        "iconPath": "static/img/tab_home_no.png",
+        "selectedIconPath": "static/img/tab_home_yes.png"
+      },
+      {
+        "text": "热门",
+        "pagePath": "pages/hot/hot",
+        "iconPath": "static/img/tab_popular_no.png",
+        "selectedIconPath": "static/img/tab_popular_yes.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/img/tab_news_no.png",
+        "selectedIconPath": "static/img/tab_news_yes.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/center/center",
+        "iconPath": "static/img/tab_my_no.png",
+        "selectedIconPath": "static/img/tab_my_yes.png"
+      }
+    ]
+  }
 }
