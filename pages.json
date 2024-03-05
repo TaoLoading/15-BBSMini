@@ -4,6 +4,38 @@
 		"style": {
 			"navigationBarTitleText": "uni-app"
 		}
+	},
+	{
+		"path" : "pages/home/home",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "pages/center/center",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "pages/hot/hot",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
+	},
+	{
+		"path" : "pages/message/message",
+		"style" : 
+		{
+			"navigationBarTitleText" : "",
+			"enablePullDownRefresh" : false
+		}
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
