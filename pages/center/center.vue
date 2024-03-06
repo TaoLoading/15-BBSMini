@@ -1,5 +1,7 @@
 <template>
-  <view> center </view>
+  <view class="center">
+    <view class="bottom-line"></view>
+  </view>
 </template>
 
 <script>

@@ -2343,4 +2343,13 @@ page {
   font-size: 14px;
   color: #333;
   padding: 10px;
+}
+.bottom-line {
+  position: fixed;
+  bottom: -5px;
+  left: 0;
+  width: 100vw;
+  height: 5px;
+  box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.05);
+  z-index: 999;
 }page{--status-bar-height:25px;--top-window-height:0px;--window-top:0px;--window-bottom:0px;--window-left:0px;--window-right:0px;--window-magin:0px}[data-c-h="true"]{display: none !important;}

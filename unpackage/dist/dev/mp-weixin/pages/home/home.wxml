@@ -1,1 +1,1 @@
-<view> home </view>
+<view class="home"><view class="count-display">Count: {{a}}</view><button bindtap="{{b}}">Increment</button><view class="bottom-line"></view></view>

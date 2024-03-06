@@ -40,7 +40,6 @@
   },
   "tabBar": {
     "color": "#999",
-    "backgroundColor": "#fafafa",
     "selectedColor": "#02D199",
     "borderStyle": "white",
     "list": [
@@ -69,5 +68,11 @@
         "selectedIconPath": "static/img/tab_my_yes.png"
       }
     ]
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
   }
 }

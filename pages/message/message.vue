@@ -1,5 +1,7 @@
 <template>
-  <view> message </view>
+  <view class="message">
+    <view class="bottom-line"></view>
+  </view>
 </template>
 
 <script>

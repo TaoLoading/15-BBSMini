@@ -13,7 +13,6 @@
   },
   "tabBar": {
     "color": "#999",
-    "backgroundColor": "#fafafa",
     "selectedColor": "#02D199",
     "borderStyle": "white",
     "list": [

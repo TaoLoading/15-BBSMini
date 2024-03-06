@@ -1,5 +1,7 @@
 <template>
-  <view> hot </view>
+  <view class="hot">
+    <view class="bottom-line"></view>
+  </view>
 </template>
 
 <script>
